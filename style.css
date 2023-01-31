@@ -19,8 +19,24 @@ body {
     margin-top: -10px;
 }
 
+.navbar {
+     display: inline-flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 35px;
+    background-color: #758190; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
 .stats-container {
     display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
